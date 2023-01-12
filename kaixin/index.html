@@ -7,12 +7,6 @@
   <title>
     小鱼
   </title>
-  <embed
-      src="./徐海俏 - 南下.mp3"
-      hidden="true"
-      autostart="true"
-      loop="true"
-    />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -29,24 +23,24 @@
 </head>
 
 <body>
-  <audio preload autoplay loop id="vd">
+<!--   <audio preload autoplay loop id="vd">
       <source src="./徐海俏 - 南下.mp3" type="audio/mpeg" />
-    </audio>
+    </audio> -->
   <script>
       //音乐播放
-      window.onload = function () {
-        setInterval('toggleSound()', 100)
-      }
+//       window.onload = function () {
+//         setInterval('toggleSound()', 100)
+//       }
 
-      function toggleSound() {
-        var music = document.getElementById('vd') //获取ID
+//       function toggleSound() {
+//         var music = document.getElementById('vd') //获取ID
 
-        if (music.paused) {
-          //判读是否播放
-          music.paused = false
-          music.play() //没有就播放
-        }
-      }
+//         if (music.paused) {
+//           //判读是否播放
+//           music.paused = false
+//           music.play() //没有就播放
+//         }
+//       }
   <!-- partial:index.partial.html -->
   <!-- SVG Spritesheet -->
   <div style="height: 0; width: 0; position: absolute; visibility: hidden;">
